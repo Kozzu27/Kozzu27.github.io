@@ -104,6 +104,7 @@ img {
         grid-row: 24 / 26;
         text-align: center;
         padding: 10px;
+        font-size: 110%
     }
     div.g6 {
         grid-column: 1;
@@ -117,6 +118,9 @@ img {
     }
     ul.stopa li{
     margin-right: 7px;
+    }
+    ul li {
+        margin-right: 10px;
     }
     img {
         border-radius: 5%;

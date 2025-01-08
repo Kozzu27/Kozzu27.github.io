@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="foto/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Kalkulator</title>
+</head>
+<body class="tlo">
+    <div class="tlo">
+        <div id="tytul">
+            <h1>KALKULATOR</h1>
+            <ul>
+                <li><a id="menu" href="wzory.html">Wzory</a></li>
+                <li><a id="menu" href="index.html">Strona Główna</a></li>
+                <li><a id="menu" href="postacie.html">Matematycy</a></li>
+            </ul>
+        </div>
+        <div id="kalkulator">
+            <input id="display" readonly>
+            <div id="przyciski">
+                <button onclick="wyswietl('7')">7</button>
+                <button onclick="wyswietl('8')">8</button>
+                <button onclick="wyswietl('9')">9</button>
+                <button onclick="wyswietl('*')">*</button>
+                <button onclick="wyswietl('4')">4</button>
+                <button onclick="wyswietl('5')">5</button>
+                <button onclick="wyswietl('6')">6</button>
+                <button onclick="wyswietl('/')">/</button>
+                <button onclick="wyswietl('1')">1</button>
+                <button onclick="wyswietl('2')">2</button>
+                <button onclick="wyswietl('3')">3</button>
+                <button onclick="wyswietl('+')">+</button>
+                <button onclick="wyswietl('0')">0</button>
+                <button onclick="wyswietl('.')">.</button>
+                <button onclick="wyswietl('-')">-</button>
+                <button onclick="oblicz()">=</button>
+                <button onclick="wyczysc()">C</button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

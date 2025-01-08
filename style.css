@@ -294,3 +294,6 @@ main > div{
 #start ul li:active{
     transform: translateY(20px);
 }
+img{
+    border-radius: 25px;
+}

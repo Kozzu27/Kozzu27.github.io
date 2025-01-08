@@ -17,28 +17,32 @@
                 <li><a id="menu" href="postacie.html">Matematycy</a></li>
             </ul>
         </div>
+        <div class="historia"><button id="historia" onclick="kopiuj()"></button></div>
         <div id="kalkulator">
-            <input id="display" readonly>
+            <input id="display" >
             <div id="przyciski">
                 <button onclick="wyswietl('7')">7</button>
                 <button onclick="wyswietl('8')">8</button>
                 <button onclick="wyswietl('9')">9</button>
-                <button onclick="wyswietl('*')">*</button>
+                <button id="operator" onclick="wyswietl('*')">*</button>
                 <button onclick="wyswietl('4')">4</button>
                 <button onclick="wyswietl('5')">5</button>
                 <button onclick="wyswietl('6')">6</button>
-                <button onclick="wyswietl('/')">/</button>
+                <button id="operator" onclick="wyswietl('/')">/</button>
                 <button onclick="wyswietl('1')">1</button>
                 <button onclick="wyswietl('2')">2</button>
                 <button onclick="wyswietl('3')">3</button>
-                <button onclick="wyswietl('+')">+</button>
+                <button id="operator" onclick="wyswietl('+')">+</button>
                 <button onclick="wyswietl('0')">0</button>
                 <button onclick="wyswietl('.')">.</button>
-                <button onclick="wyswietl('-')">-</button>
-                <button onclick="oblicz()">=</button>
-                <button onclick="wyczysc()">C</button>
+                <button id="operator" onclick="wyswietl('-')">-</button>
+                <button id="operator" onclick="oblicz()">=</button>
+                <button id="specialny" onclick="wyczysc()">AC</button>
+                <button id="specialny" onclick="usun()">C</button>
             </div>
         </div>
+        
+        
     </div>
     <script src="main.js"></script>
 </body>

@@ -20,10 +20,10 @@ body{
     background-color: hsl(252, 7%, 14%);
     border-radius: 25px;
     overflow: hidden;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 #przyciski{
     text-align: center;
@@ -68,6 +68,20 @@ button:hover{
 button:active{
     transform: translateY(12px);
 }
+#specialny{
+    background-color:rgb(236, 89, 96);
+}
+#specialny:hover{
+    background-color: rgb(109, 81, 185);
+    scale: 1.06;
+}
+#operator{
+    background-color:rgb(73, 68, 104);
+}
+#operator:hover{
+    background-color: rgb(109, 81, 185);
+    scale: 1.06;
+}
 #tytul {
     background-color: rgba(0, 0, 0, 0.534);
     text-align: center;
@@ -79,6 +93,27 @@ button:active{
     font-weight: bold;
     font-size: x-large;
     max-height: 170px;
+}
+#historia{
+    text-align: center;
+    color: white;
+    font-family: myfont;
+    font-size: large;
+    background-color:rgba(0, 0, 0, 0);
+    border: none;
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-inline: auto;
+}
+.historia{
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 footer{
     background-color: rgba(0, 0, 0, 0.534);
@@ -239,7 +274,6 @@ main > div{
 }
 #start ul{
     list-style-type: none;
-
     margin: 0;
     padding-top: 70px;
     padding-left: 0;
